@@ -21,7 +21,7 @@ namespace gugudan
 
             for ( int i = 1; i<=19; i++)
             {
-                Console.WriteLine(inputNumber+"X" + i + "=" + 2 * i);
+                Console.WriteLine(inputNumber+"X" + i + "=" + inputNumber * i);
             }
             Console.ReadLine();
             
